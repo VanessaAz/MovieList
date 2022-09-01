@@ -199,6 +199,62 @@ header {
     
 }
 
+@media (max-width: 500px){
+    html, body{
+        font-size: 1rem;
+    }
+
+    .header {
+        max-width: 100%;
+        height: 30vh;
+    }
+
+    .search-field {
+        height: 4vh;
+    }
+
+    .search-field > input {
+        width: 50%;
+    }
+
+    #search-btn {
+        width: 30%;
+        padding: 5px;
+    }
+
+    .movie{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .poster{
+        margin: 0 auto 1em auto;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .info {
+        text-align: center;
+    }
+    
+    .inline{
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .inline > p {
+        margin: .5em 0;
+    }
+    
+    .inline > button{
+        margin: .5em;
+    }
+    
+    .inline > button:hover{
+        color: salmon;
+    }
+    
+}
 
 
 
