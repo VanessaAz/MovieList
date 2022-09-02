@@ -4,6 +4,8 @@ const btnSearch = document.getElementById('search-btn')
 const movieList = document.getElementById('movie-list')
 let watchlist = []
 
+localStorage.setItem('watchlist', JSON.stringify(watchlist))
+
 
 btnSearch.addEventListener('click', function(e){
     e.preventDefault()
