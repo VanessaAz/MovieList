@@ -70,5 +70,16 @@ function addMovieToList(id){
     watchlist = JSON.parse(localStorage.getItem('watchlist'))
     watchlist.push(movieId)
     localStorage.setItem('watchlist', JSON.stringify(watchlist))
+    alertAddMovie()
+}
+
+function alertAddMovie(){
+    const boxAlert = document.getElementById('box-alert')
+    boxAlert.innerHTML = `<h3>Movie added to Watchlist</h3>`
+    boxAlert.classList.add('box-alert')
+    setTimeout(() => {
+        boxAlert.innerHTML= ''
+        boxAlert.classList.remove('box-alert')
+    }, 2000)
 }
 

@@ -187,7 +187,7 @@ header {
 }
 
 .add-movie-btn:hover{
-    color: salmon;
+    font-weight: bold;
 }
 
 .not-found {
@@ -250,9 +250,21 @@ header {
     }
     
     .inline > button:hover{
-        color: salmon;
+        font-weight: bold;
     }
     
+}
+
+.box-alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7FC6A4;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
 }
 
 
