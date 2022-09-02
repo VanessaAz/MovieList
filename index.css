@@ -4,7 +4,7 @@ html, body {
     background: #121212;
     color: #fff;
     font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, p {
@@ -84,7 +84,7 @@ header {
     padding: .5em 1em; 
     cursor: pointer;
     font-weight: bold;
-    width: 20%;
+    width: 0%;
 }
 
 #search-btn:hover{
@@ -109,8 +109,8 @@ header {
 }
 
 .poster {
-    width: 100px;
-    height: 150px;
+    width: 200px;
+    height: 300px;
 }
 
 .info {
@@ -118,7 +118,7 @@ header {
 }
 
 .info > h3 {
-    margin-bottom: 15px;
+    margin-bottom: 1.5em;
 }
 
 .info > p{
@@ -132,7 +132,7 @@ header {
     display: flex;
     font-size: .85rem;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 1.5em;
 }
 
 .inline > p {
